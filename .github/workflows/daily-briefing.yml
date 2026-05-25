@@ -12,7 +12,7 @@ steps:
 with:
 python-version: "3.13"
 - run: pip install -r requirements.txt
-- name: Fetch and push
-env:
-FEISHU_WEBHOOK_URL: ${{ secrets.FEISHU_WEBHOOK_URL }}
-run: python daily_briefing.py
+- name: Fetch and push                                                                                          
+          env:                                                                                                          
+            FEISHU_WEBHOOK_URL: "${{ secrets.FEISHU_WEBHOOK_URL }}"                                                     
+          run: python daily_briefing.py
