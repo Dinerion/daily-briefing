@@ -1,9 +1,9 @@
 name: briefing
-  on:
+on:
     workflow_dispatch:
     schedule:
       - cron: "0 2 * * *"
-  jobs:
+jobs:
     run:
       runs-on: ubuntu-latest
       steps:
