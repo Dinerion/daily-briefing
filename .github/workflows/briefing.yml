@@ -1,6 +1,7 @@
-name: briefing，
-on:
-  workflow_dispatch:
-  schedule:
-    - cron: "0 2 * * *"
-jobs:
+name: b                                                                                                                                   
+on: workflow_dispatch                                                                                                                     
+jobs:                                                                                                                                     
+    b:                                                                                                                                      
+      runs-on: ubuntu-latest                                                                                                                
+      steps:                                                                                                                                
+        - run: echo ok
