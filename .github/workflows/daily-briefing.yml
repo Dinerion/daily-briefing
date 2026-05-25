@@ -1,3 +1,5 @@
+name: Daily Briefing
+
   on:
     schedule:
       - cron: '0 2 * * *'
